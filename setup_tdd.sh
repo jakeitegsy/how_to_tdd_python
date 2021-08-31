@@ -1,4 +1,5 @@
-testSetup=$(cat <<-ENDimport unittest
+testSetup=$(cat <<-END
+import unittest
 
 class Test$($1)(unittest.TestCase):
 
